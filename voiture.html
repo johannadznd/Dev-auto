@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Dev'Auto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-expand-lg navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link " href="index.html">Accueil</a>
+                  <a class="nav-link" href="list.html">Voitures</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <nav class="m-3" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="list.html">Voitures</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Audi R8</li>
+        </ol>
+      </nav>
+      <nav id="navbar" class="navbar navbar-dark bg-dark flex-column align-items-stretch p-3 m-5">
+        <a class="navbar-brand" href="voiture.html">Audi R8</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link text-white" href="#description">Description</a>
+          <a class="nav-link text-white" href="#forts">Les points forts</a>
+          <a class="nav-link text-white" href="#faibles">Les points faibles</a>
+          <a class="nav-link text-white" href="#avis">Les avis</a>
+        </nav>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+      <h1 class="text-center m-3">Audi R8</h1>
+ 
+    <div class="container-fluid">
+      <div class="row" id="description">
+        <div class="col-12 col-md-6">
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/AudiR8.png" srcset="images/AudiR8-1200.png 1200w , images/AudiR8-750.png 750w, images/AudiR8.png 500w" class="d-block w-100" alt="Audi">
+              </div>
+              <div class="carousel-item">
+                <img src="images/AudiR8.png" srcset="images/AudiR8-1200.png 1200w , images/AudiR8-750.png 750w, images/AudiR8.png 500w" class="d-block w-100" alt="Audi">
+              </div>
+              <div class="carousel-item">
+                <img src="images/AudiR8.png" srcset="images/AudiR8-1200.png 1200w , images/AudiR8-750.png 750w, images/AudiR8.png 500w" class="d-block w-100" alt="Audi">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-6">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque reprehenderit placeat corporis?</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae tempora veritatis deserunt iusto commodi ipsa, consequatur corrupti qui repudiandae dignissimos. Iure sit, aliquam, nostrum, enim quis temporibus pariatur consequatur delectus veritatis facere incidunt amet sed aspernatur consequuntur voluptate laboriosam quidem accusantium unde? Quae eligendi impedit rem atque placeat voluptatum assumenda!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptatem.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus rerum eos laudantium ab eum explicabo, aliquid dolorem cum dicta inventore dignissimos aut ea pariatur voluptas itaque tenetur voluptatem fuga. Enim obcaecati eius assumenda alias minus illum natus ipsum sapiente explicabo amet repellendus tempore, doloremque numquam animi cupiditate eum officia.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, assumenda?</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt quia animi, aliquid in ea libero totam quos quidem expedita quasi dignissimos quibusdam excepturi maxime. Commodi, cum soluta maiores minima temporibus quidem dolorem quasi voluptatum, est fugit voluptatibus veritatis vitae doloribus repellendus unde facere. Fuga sit harum illum quibusdam eius.
+                </div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        </div>
+
+      <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-around my-5">
+
+        <div id="forts">
+          <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+          <div class="card-header">Points faibles </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">- Lorem, ipsum dolor.</li>
+              <li class="list-group-item">- Lorem ipsum dolor sit.</li>
+              <li class="list-group-item">- Lorem, ipsum.</li>
+              <li class="list-group-item">- Lorem ipsum dolor sit amet.</li>
+              <li class="list-group-item">- Lorem, ipsum.</li>
+              <li class="list-group-item">- Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+        </div>  
+        </div>
+
+        <div id="faibles">
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">Points forts</div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">- Lorem, ipsum dolor.</li>
+                <li class="list-group-item">- Lorem ipsum dolor sit.</li>
+                <li class="list-group-item">- Lorem, ipsum.</li>
+                <li class="list-group-item">- Lorem ipsum dolor sit amet.</li>
+                <li class="list-group-item">- Lorem, ipsum.</li>
+                <li class="list-group-item">- Lorem, ipsum dolor.</li>
+              </ul>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  <h5 id="avis" class="ms-4">Avis</h5>
+  <div  class="container-fluid my-5">
+    <div class="row  my-5">
+      <div class="col-4 col-md-2 align-self-center text-center">
+        <img  src="images/audi-logo.png" srcset="images/audi-logo1200.png 1200w , images/audi-logo750.png 750w images/audi-logo.png 500w" class="rounded-circle p-2 commentImg " alt="audi-logo">
+        <p>Repudiandae</p>
+      </div>
+      <div class="col-8 col-md-10">
+        <div class="card">
+          <div class="card-body">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere facilis eaque qui natus eos deserunt iusto, rerum corrupti eum sit pariatur optio? Fuga ea dolor provident similique deleniti tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam earum pariatur hic enim beatae facere quam recusandae perspiciatis voluptatum.</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="row  my-5">
+      <div class="col-4 col-md-2 align-self-center text-center">
+        <img  src="images/audi-logo.png" srcset="images/audi-logo1200.png 1200w , images/audi-logo750.png 750w images/audi-logo.png 500w" class="rounded-circle p-2 commentImg " alt="audi-logo">
+        <p>Repudiandae</p>
+      </div>
+      <div class="col-8 col-md-10">
+        <div class="card">
+          <div class="card-body">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere facilis eaque qui natus eos deserunt iusto, rerum corrupti eum sit pariatur optio? Fuga ea dolor provident similique deleniti tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam earum pariatur hic enim beatae facere quam recusandae perspiciatis voluptatum.</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="row  my-5">
+      <div class="col-4 col-md-2 align-self-center text-center">
+        <img  src="images/audi-logo.png" srcset="images/audi-logo1200.png 1200w , images/audi-logo750.png 750w images/audi-logo.png 500w" class="rounded-circle p-2 commentImg " alt="audi-logo">
+        <p>Repudiandae</p>
+      </div>
+      <div class="col-8 col-md-10">
+        <div class="card">
+          <div class="card-body">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere facilis eaque qui natus eos deserunt iusto, rerum corrupti eum sit pariatur optio? Fuga ea dolor provident similique deleniti tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam earum pariatur hic enim beatae facere quam recusandae perspiciatis voluptatum.</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="row  my-5">
+      <div class="col-4 col-md-2 align-self-center text-center">
+        <img  src="images/audi-logo.png" srcset="images/audi-logo1200.png 1200w , images/audi-logo750.png 750w images/audi-logo.png 500w" class="rounded-circle p-2 commentImg " alt="audi-logo">
+        <p>Repudiandae</p>
+      </div>
+      <div class="col-8 col-md-10">
+        <div class="card">
+          <div class="card-body">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere facilis eaque qui natus eos deserunt iusto, rerum corrupti eum sit pariatur optio? Fuga ea dolor provident similique deleniti tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam earum pariatur hic enim beatae facere quam recusandae perspiciatis voluptatum.</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="row  my-5">
+      <div class="col-4 col-md-2 align-self-center text-center">
+        <img  src="images/audi-logo.png" srcset="images/audi-logo1200.png 1200w , images/audi-logo750.png 750w images/audi-logo.png 500w" class="rounded-circle p-2 commentImg " alt="audi-logo">
+        <p>Repudiandae</p>
+      </div>
+      <div class="col-8 col-md-10">
+        <div class="card">
+          <div class="card-body">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere facilis eaque qui natus eos deserunt iusto, rerum corrupti eum sit pariatur optio? Fuga ea dolor provident similique deleniti tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam earum pariatur hic enim beatae facere quam recusandae perspiciatis voluptatum.</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+    </main>
+    <footer>
+
+        <div class="text-center p-3 bg-dark" >
+          <p style="color: white;">© 2020 Copyright : <a class="text-light" href="index.html">Dev'auto</a></p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   
+      </footer>
+  </body>
+  </html>
+
+
